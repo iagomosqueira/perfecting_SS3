@@ -39,6 +39,6 @@ SS_writedat(dat, outfile=file.path("perfect_cpue", "data.ss"), overwrite=TRUE)
 
 per_cpue <- readFLSss3("perfect_cpue")
 
-plot(base, per_cpue)
+plot(FLStocks(BASE=base, CPUE=per_cpue))
 
 
