@@ -1,0 +1,23 @@
+#V3.30.16.00;_2020_09_03;_safe;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.2
+#Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
+#Foreign copyrights may apply. See copyright.txt for more information.
+Wed Jul 26 09:48:17 2023
+
+ Are you sure you want so few early recrdevs? Better to include in range of main recdevs 5
+Fleet:_1 min bound on parameter for size at peak is 35; should be >= midsize bin 2 (42.5)
+Fleet:_2 min bound on parameter for size at peak is 35; should be >= midsize bin 2 (42.5)
+Fleet:_3 min bound on parameter for size at peak is 35; should be >= midsize bin 2 (42.5)
+Fleet:_4 min bound on parameter for size at peak is 35; should be >= midsize bin 2 (42.5)
+Fleet:_5 min bound on parameter for size at peak is 35; should be >= midsize bin 2 (42.5)
+Fleet:_7 min bound on parameter for size at peak is 35; should be >= midsize bin 2 (42.5)
+Fleet:_10 min bound on parameter for size at peak is 35; should be >= midsize bin 2 (42.5)
+ jitter not done unless parameter min & max are in reasonable parameter range -100 100
+ jitter not done unless parameter min & max are in reasonable parameter range -100 100
+ jitter not done unless parameter min & max are in reasonable parameter range -100 100
+ jitter not done unless parameter min & max are in reasonable parameter range -100 100
+ jitter not done unless parameter min & max are in reasonable parameter range -100 100
+ jitter not done unless parameter min & max are in reasonable parameter range -100 100
+setting in starter does not request all priors, and 49 parameters have priors and are not estimated, so their prior not included in obj_fun.
+ Minimum size bin is:_15; which is >10cm, which is large for use as size-at-age 0.0 recruitment
+Number_of_active_parameters_on_or_near_bounds: 1
+ N warnings: 17
